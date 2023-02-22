@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+body,
+ul,
+p,
+input {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* ---网页头部--- */
+#header {
+	position: relative;
+	width: 100%;
+	height: 55px;
+}
+
+.h-left,
+.h-center,
+.h-right {
+	position: absolute;
+}
+
+/* ---网页头部左边区域开始--- */
+.h-left {
+	width: 179px;
+	line-height: 54px;
+	top: 0;
+	left: 0;
+	background-color: rgb(206, 40, 69);
+	text-align: center;
+}
+
+.h-left>a {
+	cursor: default;
+	font-size: 12px;
+	color: #fff;
+}
+
+.h-left>a i {
+	display: inline-block;
+	width: 25px;
+	height: 11px;
+	margin-right: 8px;
+	background: url(../img1/sprite-w_dd519f4.png) no-repeat -90px -306px;
+}
+
+/* ---网页头部左边区域结束--- */
+
+
+/*---网易游戏logo区域开始--- */
+.h-center {
+	width: 133px;
+	height: 54px;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.h-center>a {
+	display: block;
+	width: 100%;
+	height: 54px;
+	background: url(../img1/logo_b5525b7.png) no-repeat 0px 7px;
+}
+
+/*---网易游戏logo区域结束--- */
+
+.share {
+	position: relative;
+	width: 425px;
+	margin: 8px auto 0;
+}
+
+.share .NIE-share-txt {
+	display: inline-block;
+}
+
+.share .NIE-share-txt span {
+	font-size: 12px;
+	color: #efcb97;
+	vertical-align: middle;
+}
+
+.share>ul {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.share>ul>li {
+	float: left;
+	line-height: 24px;
+	color: #efcb97;
+	margin: 0 11px;
+}
+
+.share .more {
+	margin-right: 0;
+}
+
+.share .more>a {
+	display: block;
+	width: 59px;
+}
+
+.share>ul>li>a {
+	color: #efcb97;
+}
+
+.share>ul>li>a:hover {
+	color: #a70d01;
+}
+
+.share>ul>li>a i {
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.share>ul a i.icon-yixin {
+	font-size: 23px;
+}
+
+.share>ul>li>a span {
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.share .QQ {
+	position: absolute;
+	width: 103px;
+	top: 6px;
+	right: -98px;
+	border: 1px solid #eee;
+	background-color: #fff;
+	display: none;
+}
+
+.share .QQ>a {
+	display: block;
+	margin: 2px;
+	padding: 1px;
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+}
+
+.share .QQ>a .icons {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	background: url(../img1/icon.v5.png) no-repeat -1px -477px;
+	vertical-align: middle;
+}
+
+.share .more:hover .QQ {
+	display: block;
+}
+
+.share .QQ:hover a {
+	background-color: rgb(240, 240, 240);
+}
+
+/*---share结束---*/
+
+
+
+/*---NIE-copyRight开始---*/
+.NIE-copyRight {
+	width: 100%;
+}
+
+.nie-copyright-new-inner {
+	width: 955px;
+	margin: 0 auto;
+	padding: 15px 0 10px;
+}
+
+.nie-cn-part1 {
+	width: 100%;
+}
+
+.nie-cn-logo {
+	display: inline-block;
+	width: 359px;
+	vertical-align: middle;
+}
+
+.nie-cn-logo .pic1,
+.pic2 {
+	display: inline-block;
+}
+
+.nie-cn-logo .pic1 img {
+	padding-top: 5px;
+}
+
+.nie-cn-logo .pic2 img {
+	padding-top: 5px;
+}
+
+.nie-cn-logo .pic3 img {
+	padding: 5px 15px 0;
+}
+
+.nie-cn-logo .pic4 img {
+	padding: 5px 15px 0 0;
+}
+
+.nie-cn-nav {
+	display: inline-block;
+	width: 479px;
+	margin-top: 5px;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.nie-cn-nav-i1,
+.nie-cn-nav-i2 {
+	display: block;
+	width: 100%;
+	font-style: normal;
+	font-size: 12px;
+}
+
+.nie-cn-nav-i1>a {
+	font-size: 12px;
+	color: #fff;
+}
+
+.nie-cn-nav-i2 {
+	position: relative;
+	line-height: 26px;
+}
+
+.nie-cn-nav-i2>a {
+	position: absolute;
+	right: 0;
+	padding: 0 5px;
+	background-color: rgb(97, 0, 0);
+	font-size: 12px;
+	color: #fff;
+	text-align: right;
+}
+
+.nie-cn-nav a:hover {
+	text-decoration: underline;
+}
+
+.nie-cn-part2 {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.nie-cn-part2>p,
+.nie-cn-part2>span,
+.nie-cn-part2>a {
+	line-height: 24px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.nie-cn-part2>a:hover {
+	text-decoration: underline;
+}
+
+.aspan {
+	color: white;
+	display: block;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+}

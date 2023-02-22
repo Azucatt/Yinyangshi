@@ -1,0 +1,28 @@
+#liuyan textarea {
+    outline: none;
+    margin: 0 0 10px 280px;
+}
+#liuyan ul {
+    margin: 0;
+    padding: 0;
+}
+#liuyan li {
+    list-style: none;
+    width: 1000px;
+    border: 1px solid #eee;
+    margin: 10px 0 10px 280px;
+    font-size: 16px;
+    color: pink;
+}
+#liuyan a {
+    text-decoration: none;
+    color: red;
+    float: right;
+}
+#liuyan p{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+

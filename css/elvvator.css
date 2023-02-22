@@ -1,0 +1,45 @@
+#elevator ul{
+    list-style: none;
+    width: 150px;
+    position: fixed;
+    left: 0;
+    bottom: 50%;
+    display: none;
+    z-index: 666;
+    /* transform: translateY(-50%); */
+}
+#elevator ul li{
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    width: 80px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '仿宋';
+    cursor: pointer;
+} 
+#elevator ul li:first-child{ border-top: 1px solid black;}
+.curr{
+    background: red;
+}
+
+#backTop{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 1px solid skyblue;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    position: fixed; bottom: -60px; right: 60px;
+    transition: background-color  0.3s;
+    font-size: 25px;
+    z-index: 666;
+}
+#backTop:hover{
+    background: skyblue;
+    color:white
+}
